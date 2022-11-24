@@ -9,9 +9,9 @@ type Employee = {
   startDate: Date;
 };
 
-type EvaluatedEmployee = Employee & Admin; //both properties
+type EvaluatedEmployee = Employee & Admin; //intersection object types => both properties/combination of two object types
 
-const employee1: EvaluatedEmployee = {
+const employee1: EvaluatedEmployee = {//all 3 props should be
   name: 'Manu',
   privileges: ['create-server'],
   startDate: new Date(),
@@ -19,5 +19,6 @@ const employee1: EvaluatedEmployee = {
 
 type Combine = string | number; //union type
 type Numeric = number | boolean;
-type Universal = Combine & Numeric; //number is intersection of two types, therefore only the number accepted
+type Universal = Combine & Numeric; //intersection union types=> only what they have in common
+// number is intersection of two types, therefore only the number accepted
 //const x: Universal=true; //error
