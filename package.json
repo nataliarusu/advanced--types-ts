@@ -1,0 +1,19 @@
+{
+  "name": "advanced-types-ts",
+  "version": "1.0.0",
+  "description": "Advanced types learning",
+  "main": "./src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliarusu/advanced-types-ts.git"
+  },
+  "author": "Natalia Rusu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliarusu/advanced-types-ts/issues"
+  },
+  "homepage": "https://github.com/nataliarusu/advanced-types-ts#readme"
+}
